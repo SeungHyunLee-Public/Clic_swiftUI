@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2435E792268C178C00529C35 /* KlifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2435E791268C178C00529C35 /* KlifeApp.swift */; };
+		2435E794268C178C00529C35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2435E793268C178C00529C35 /* ContentView.swift */; };
+		2435E796268C178F00529C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2435E795268C178F00529C35 /* Assets.xcassets */; };
+		2435E799268C178F00529C35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2435E798268C178F00529C35 /* Preview Assets.xcassets */; };
+		2435E7A1268C195000529C35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2435E7A0268C195000529C35 /* GoogleService-Info.plist */; };
+		24C8526E268C1A6C00E93628 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C8526D268C1A6C00E93628 /* AuthenticationViewModel.swift */; };
+		24EB5355268C2A210082F3B9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB5354268C2A210082F3B9 /* Home.swift */; };
+		24EB5357268C2A300082F3B9 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EB5356268C2A300082F3B9 /* Login.swift */; };
+		24EB535C268C4B360082F3B9 /* SwiftSMTP in Frameworks */ = {isa = PBXBuildFile; productRef = 24EB535B268C4B360082F3B9 /* SwiftSMTP */; };
+		A49BD66C0104E20D4656FFAC /* Pods_Klife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BB8358E4A13A77E7F44B72 /* Pods_Klife.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2435E78E268C178C00529C35 /* Klife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Klife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2435E791268C178C00529C35 /* KlifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlifeApp.swift; sourceTree = "<group>"; };
+		2435E793268C178C00529C35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2435E795268C178F00529C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2435E798268C178F00529C35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2435E79A268C178F00529C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2435E7A0268C195000529C35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		24C8526D268C1A6C00E93628 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		24EB5354268C2A210082F3B9 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		24EB5356268C2A300082F3B9 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		917D7212B87A8FBCE068AE9D /* Pods-Klife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klife.debug.xcconfig"; path = "Target Support Files/Pods-Klife/Pods-Klife.debug.xcconfig"; sourceTree = "<group>"; };
+		C60CAF1D1436FF06B3C923CE /* Pods-Klife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Klife.release.xcconfig"; path = "Target Support Files/Pods-Klife/Pods-Klife.release.xcconfig"; sourceTree = "<group>"; };
+		D0BB8358E4A13A77E7F44B72 /* Pods_Klife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Klife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2435E78B268C178C00529C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EB535C268C4B360082F3B9 /* SwiftSMTP in Frameworks */,
+				A49BD66C0104E20D4656FFAC /* Pods_Klife.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2435E785268C178C00529C35 = {
+			isa = PBXGroup;
+			children = (
+				2435E790268C178C00529C35 /* Klife */,
+				2435E78F268C178C00529C35 /* Products */,
+				7151E356C51B384E9910B72F /* Pods */,
+				41482A5DDD4E2A3120D87DB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2435E78F268C178C00529C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2435E78E268C178C00529C35 /* Klife.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2435E790268C178C00529C35 /* Klife */ = {
+			isa = PBXGroup;
+			children = (
+				24EB5354268C2A210082F3B9 /* Home.swift */,
+				2435E7A0268C195000529C35 /* GoogleService-Info.plist */,
+				2435E791268C178C00529C35 /* KlifeApp.swift */,
+				2435E793268C178C00529C35 /* ContentView.swift */,
+				24EB5356268C2A300082F3B9 /* Login.swift */,
+				2435E795268C178F00529C35 /* Assets.xcassets */,
+				2435E79A268C178F00529C35 /* Info.plist */,
+				2435E797268C178F00529C35 /* Preview Content */,
+				24C8526D268C1A6C00E93628 /* AuthenticationViewModel.swift */,
+			);
+			path = Klife;
+			sourceTree = "<group>";
+		};
+		2435E797268C178F00529C35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2435E798268C178F00529C35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41482A5DDD4E2A3120D87DB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0BB8358E4A13A77E7F44B72 /* Pods_Klife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7151E356C51B384E9910B72F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				917D7212B87A8FBCE068AE9D /* Pods-Klife.debug.xcconfig */,
+				C60CAF1D1436FF06B3C923CE /* Pods-Klife.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2435E78D268C178C00529C35 /* Klife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2435E79D268C178F00529C35 /* Build configuration list for PBXNativeTarget "Klife" */;
+			buildPhases = (
+				4948B8063E0191D416499D47 /* [CP] Check Pods Manifest.lock */,
+				2435E78A268C178C00529C35 /* Sources */,
+				2435E78B268C178C00529C35 /* Frameworks */,
+				2435E78C268C178C00529C35 /* Resources */,
+				58470A4C38A7E01C6BF9D001 /* [CP] Embed Pods Frameworks */,
+				788A1C8F47FE9541C6B2C294 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Klife;
+			packageProductDependencies = (
+				24EB535B268C4B360082F3B9 /* SwiftSMTP */,
+			);
+			productName = Klife;
+			productReference = 2435E78E268C178C00529C35 /* Klife.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2435E786268C178C00529C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2435E78D268C178C00529C35 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 2435E789268C178C00529C35 /* Build configuration list for PBXProject "Klife" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2435E785268C178C00529C35;
+			packageReferences = (
+				24EB535A268C4B360082F3B9 /* XCRemoteSwiftPackageReference "Swift-SMTP" */,
+			);
+			productRefGroup = 2435E78F268C178C00529C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2435E78D268C178C00529C35 /* Klife */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2435E78C268C178C00529C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2435E799268C178F00529C35 /* Preview Assets.xcassets in Resources */,
+				2435E796268C178F00529C35 /* Assets.xcassets in Resources */,
+				2435E7A1268C195000529C35 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4948B8063E0191D416499D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Klife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58470A4C38A7E01C6BF9D001 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klife/Pods-Klife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klife/Pods-Klife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klife/Pods-Klife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		788A1C8F47FE9541C6B2C294 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klife/Pods-Klife-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Klife/Pods-Klife-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Klife/Pods-Klife-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2435E78A268C178C00529C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24C8526E268C1A6C00E93628 /* AuthenticationViewModel.swift in Sources */,
+				24EB5357268C2A300082F3B9 /* Login.swift in Sources */,
+				2435E794268C178C00529C35 /* ContentView.swift in Sources */,
+				24EB5355268C2A210082F3B9 /* Home.swift in Sources */,
+				2435E792268C178C00529C35 /* KlifeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2435E79B268C178F00529C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2435E79C268C178F00529C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2435E79E268C178F00529C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917D7212B87A8FBCE068AE9D /* Pods-Klife.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Klife/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JM2B55G36;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Klife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.esh.Klife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2435E79F268C178F00529C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60CAF1D1436FF06B3C923CE /* Pods-Klife.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Klife/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JM2B55G36;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Klife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.esh.Klife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2435E789268C178C00529C35 /* Build configuration list for PBXProject "Klife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2435E79B268C178F00529C35 /* Debug */,
+				2435E79C268C178F00529C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2435E79D268C178F00529C35 /* Build configuration list for PBXNativeTarget "Klife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2435E79E268C178F00529C35 /* Debug */,
+				2435E79F268C178F00529C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24EB535A268C4B360082F3B9 /* XCRemoteSwiftPackageReference "Swift-SMTP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/Swift-SMTP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.200;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24EB535B268C4B360082F3B9 /* SwiftSMTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24EB535A268C4B360082F3B9 /* XCRemoteSwiftPackageReference "Swift-SMTP" */;
+			productName = SwiftSMTP;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2435E786268C178C00529C35 /* Project object */;
+}

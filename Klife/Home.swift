@@ -1,9 +1,10 @@
 import SwiftUI
 import GoogleSignIn
+import Firebase
+import FirebaseFirestore
 //---------------------------------------------------------------------------
 struct Home: View {
     @State private var isShowImage : Bool = true
-    
     var body: some View
     {
         TabView
@@ -183,7 +184,7 @@ struct Setting: View {
                         HStack
                         {
                             NavigationLink(
-                                destination: Text(item.text),
+                                destination: Free_Board(Free_board: []),
                                 label: {
                                     if isShowImage
                                     {
@@ -191,7 +192,7 @@ struct Setting: View {
                                     }
                                     Text(item.text)
                                 })
-                            
+
                             }
                         }
                     }
@@ -202,6 +203,12 @@ struct Setting: View {
             .navigationBarTitle(Text("Setting"))
         }
     }
+}
+//---------------------------------------------------------------------------
+struct Free_Board_DB: Identifiable{
+    var id = UUID()
+    var title: String
+    var body: String
 }
 //---------------------------------------------------------------------------
 struct CommunityItem : Identifiable {
@@ -254,7 +261,4 @@ struct NetworkImage: View {
         }
     }
 }
-//---------------------------------------------------------------------------
-//---------------------------------------------------------------------------
-//---------------------------------------------------------------------------
 //---------------------------------------------------------------------------

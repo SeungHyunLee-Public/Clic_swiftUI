@@ -14,12 +14,12 @@ struct Login: View {
         VStack {
             Spacer()
             
-            Text("K Life")
+            Text("Clik")
                 .fontWeight(.black)
                 .foregroundColor(Color(.black))
                 .font(.largeTitle)
                 .multilineTextAlignment(.center)
-            Text("For your convenience life in korea")
+            Text("Convenient Life In Korea")
                 .fontWeight(.light)
                 .multilineTextAlignment(.center)
                 .padding()
